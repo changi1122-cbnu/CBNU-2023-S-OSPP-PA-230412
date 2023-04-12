@@ -12,24 +12,6 @@
       android:layout_height="wrap_content"
       android:text="2019038074 이우창" />
 
-    <RadioGroup
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" >
-
-        <RadioButton
-            android:id="@+id/radioSecond"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:checked="true"
-            android:text="Second 액티비티" />
-
-        <RadioButton
-            android:id="@+id/radioThird"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Third 액티비티" />
-    </RadioGroup>
-
     <Button
         android:id="@+id/btnNewActivity"
         android:layout_width="match_parent"
