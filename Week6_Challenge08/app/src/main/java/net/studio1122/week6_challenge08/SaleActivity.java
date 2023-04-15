@@ -34,6 +34,7 @@ public class SaleActivity extends AppCompatActivity {
         loginButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent resultIntent = new Intent();
+                resultIntent.putExtra("to", "login");
                 setResult(Activity.RESULT_OK, resultIntent);
                 finish();
             }

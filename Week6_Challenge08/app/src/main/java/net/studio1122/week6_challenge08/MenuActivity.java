@@ -64,6 +64,11 @@ public class MenuActivity extends AppCompatActivity {
             } else if (requestCode == 203) {
                 showToast("상품 관리");
             }
+
+            if (intent.getStringExtra("to") != null &&
+                intent.getStringExtra("to").equals("login")) {
+                finish();
+            }
         }
 
     }
